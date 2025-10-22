@@ -118,6 +118,7 @@ Quick Sort juga pakai Divide and Conquer, tapi cara “menggabungkannya” beda.
 
 ```ini
 [38, 27, 43, 3, 9, 82, 10]
+ L                     H
 Pivot = 10
 ```
 
