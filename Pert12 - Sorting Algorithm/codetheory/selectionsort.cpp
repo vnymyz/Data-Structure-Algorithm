@@ -16,6 +16,7 @@ void selection_sort(int a[], int length)
             }
         } 
 
+        // lakukan swap jika posisi min berubah
         if (min_position != i)
         {
             int temp = a[i];
