@@ -2,13 +2,20 @@
 
 using namespace std;
 
+// Function untuk mengurutkan array menggunakan Bubble Sort
 void bubble_sort(int a[], int length)
 {
+    // Flag untuk mengecek apakah ada pertukaran elemen
     bool swapped;
+    // Variabel i untuk mengurangi jumlah perbandingan pada setiap iterasi
     int i = 0;
+    // Looping do-while untuk terus mengulang 
+    // proses hingga tidak ada pertukaran elemen
     do
     {
+        // Set swapped ke false di awal setiap iterasi
         swapped = false;
+        // Looping untuk membandingkan elemen-elemen dalam array
         for (int j = 0; j < length - 1 - i; j++)
         {
             // semisal j lebih gede dari element sebelah kanannya
